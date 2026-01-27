@@ -5,7 +5,7 @@
 # Think of a variable as a labeled box that stores information
 # so you can reuse it later without typing it out every time!
 #
-# Key Concepts to practise:
+# Key Concepts to practice:
 # - Storing data in variables
 # - Using f-strings (formatted strings)
 # - Doing simple math with variables
@@ -38,9 +38,16 @@ print("-------------------------------------------\n"
 #
 # EXAMPLE:
 # colour = "Red"
-# print(f"My favourite colour is {colour}")
+# print(f"My favour colour is {colour}")
 
 # Write your code below:
+#create a variable called 'Name'
+#create a variable called 'Age'
+#create a variable called 'Food'
+Name = "Alice"
+Age = "25"
+Food = "Pizza"
+print(f"Hello {Name}")
 
 
 # -------------------------------------------
@@ -63,7 +70,9 @@ print("\n-------------------------------------------\n"
 # print(f"Your double score is {score * 2}")
 
 # Write your code below:
-
+print(f"{Name}is{Age} years old")
+print(f"In 5 years, {Name} will be 30")
+print(f"{Name} really likes {Food}")
 
 # -------------------------------------------
 # Task 3: The Power of Refactoring
@@ -74,11 +83,17 @@ print("\n-------------------------------------------\n"
 
 # TODO:
 # 1. Create a second set of variables for a person named "Bob".
-# 2. Give Bob an age and a different favourite food.
+# 2. Give Bob an age and a different favour food.
 # 3. Print the same 4 sentences as above, but for Bob.
 
 # Write your code below:
-
+#create a variable called 'name'
+#create a variable called 'age'
+#create a variable called 'food'
+name = "Bob"
+age = "28"
+food = "Hot Dog"
+print(f"Hello {name}")
 
 # -------------------------------------------
 # CHECKPOINT: WHAT IS GIT?
@@ -115,6 +130,12 @@ print("\n-------------------------------------------\n"
 # print(f"{city} sounds like a lovely place!")
 
 # Write your code below:
+#I want to ask the user what is their name
+name = input("what is your name?")
+print(f"Hello {name}")
+#I want to ask the user which city do you live in
+city = input("which city do you live in?")
+print(f"{city} sounds like a lovely place!")
 
 
 # Extension 2: Integer Conversion
